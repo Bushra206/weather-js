@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherNow</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>WeatherNow</h1>
+  </header>
+  <main>
+    <section id="current-weather">
+      <h2>Current Weather</h2>
+      <div class="weather-info">
+        <img src="images/weather-icons/sunny.png" alt="Sunny weather icon">
+        <p>25°C</p>
+        <p>Sunny</p>
+        <p>Humidity: 40%</p>
+        <p>Wind: 10 km/h</p>
+      </div>
+    </section>
+    <section id="location-search">
+      <h2>Location Search</h2>
+      <input type="text" placeholder="Enter location">
+      <button>Search</button>
+    </section>
+    <section id="hourly-forecast">
+      <h2>Hourly Forecast</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Temperature</th>
+            <th>Weather</th>
+            <th>Precipitation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>12 PM</td>
+            <td>25°C</td>
+            <td>Sunny</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>1 PM</td>
+            <td>26°C</td>
+            <td>Sunny</td>
+            <td>5%</td>
+          </tr>
+          <tr>
+            <td>2 PM</td>
+            <td>27°C</td>
+            <td>Partly Cloudy</td>
+            <td>0%</td>
+          </tr>
+          </tbody>
+      </table>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
